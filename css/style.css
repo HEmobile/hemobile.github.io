@@ -51,7 +51,13 @@ table {
           box-sizing: border-box;
 }
 
+.right {
+  float: right;
+}
 
+.left {
+  float: left;
+}
 
 
 /*/*====================*/
