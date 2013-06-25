@@ -223,3 +223,146 @@ section.call-to-action article a {
   float: right;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*/*====================*/
+/*=== About ===*/
+/*====================*/
+
+
+/*=== Banner Slider ===*/
+
+#about section.banner{
+  background: #ccc;
+  height: 300px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 100px;
+}
+
+
+/*=== Mission ===*/
+
+#about section.mission {
+  padding: 80px;
+  text-align: center;
+}
+
+
+/*=== About Us ===*/
+
+#about section.about-us {
+  background: #f4f4f4;
+}
+
+#about section.about-us ul {
+  background: #ccc;
+}
+
+#about section.about-us ul li {
+  width: 24%;
+  margin-right: 1%;
+  height: 180px;
+  margin-bottom: 2%;
+}
+
+#about section.fouders {
+  padding: 60px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#about section.fouders article {
+  background: #fafafa;
+  float: left;
+  width: 48%;
+  margin-right: 1%;
+  padding: 20px;
+}
+
+#about section.fouders article p {
+  text-align: left;
+}
+
+
+#about section.advisors {
+  padding: 60px 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+#about section.advisors article {
+  background: #fafafa;
+  float: left;
+  width: 48%;
+  margin-right: 1%;
+  padding: 20px;
+}
+
+#about section.advisors article p {
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
