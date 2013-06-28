@@ -167,7 +167,7 @@ section.our-clients {
 }
 
 section.videos {
-  background: #f3f3f3;
+/*  background: #f3f3f3;*/
   width: 100%;
   overflow: hidden;
   margin-top: 40px;
@@ -177,8 +177,12 @@ section.videos article{
   float: left;
   background: #fff;
   height: 200px;
-  width: 30%;
+  width: 32%;
   margin-right: 2%;
+}
+
+section.videos article:last-child {
+  margin-right: 0%;
 }
 
 section.clients {
@@ -322,8 +326,60 @@ section.call-to-action article a {
 
 
 
+/*=== Contatc Us ===*/
 
 
+#contact section.banner {
+  height: 300px;
+}
+
+#contact section.contact-ways {
+  background: red;
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+#contact section.form {
+  background: #fafafa;
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+#contact form input {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/*=== offices ===*/
+
+section.offices{
+  overflow: hidden;
+  padding: 60px 0;
+  text-align: center;
+}
+
+section.offices ul {
+  background: #f3f3f3;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+section.offices ul li {
+  background: #fff;
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+  height: 160px;
+}
+
+section.offices ul li:last-child {
+  margin-right: 0%;
+}
+
+section.map {
+  background: #707070;
+  height: 400px;
+}
 
 
 
