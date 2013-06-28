@@ -42,331 +42,179 @@ table {
   border-spacing: 0;
 }
 
-body {
-  line-height: 1;
-/*  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;*/
-font-family: Helvetica , Arial, sans-serif;
-}
-
-h1, h2 {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-}
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-.right {
-  float: right;
-}
-
-.left {
-  float: left;
+body {
+  line-height: 1;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 
-h2 {
-  word-spacing: 0.1em;
+/*/*===================*/
+/*===== Patterns =====*/
+/*===================*/
+
+.container {max-width: 90%; margin: auto; height: 100%;}
+.right {float: right;}
+.left {float: left;}
+
+
+h1, h2 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif; word-spacing: 0.1em; text-transform: uppercase;
 }
-
-
-
-/*/*====================*/
-/*=== Patterns ===*/
-/*====================*/
 
 header {
-  background: #fff;
-  height: 80px;
+  height: 100px;
+  border-top: 4px solid #E30A25;
 }
 
-.container {
-  max-width: 90%;
-  margin: auto;
-  height: 100%;
+header ul li {
+  float: left;
+  margin: 30px 20px 0 0;
 }
 
-footer {
-  background: black;
-  height: 300px;
-}
-
-
-
-
-/*/*====================*/
-/*=== Home ===*/
-/*====================*/
-
-
-/*=== Banner Slider ===*/
-
-section.banner {
+.cover {
   background: #404040;
-  height: 460px;
-  color: #fff;
-  font-weight: bold;
+  color: #000;
   text-align: center;
   font-size: 3em;
-  padding-top: 100px;
 }
 
-section.banner h1 {
+a.b {
+  color: #e30a25;
+  padding: 10px 60px;
+  background: transparent;
+  border: 3px solid #e30a25;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
   letter-spacing: 0.04em;
+  word-spacing: 0.2em;
+  font-size: 1.1em;
 }
 
 
+/*/*===============*/
+/*===== Home =====*/
+/*===============*/
 
-/*=== Process ===*/
+#home .cover {
+  height: 360px;
+  padding-top: 80px;
+}
 
-.process {
-  background: #fafafa;
+#home .cover h1 {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+#home h2 {
+  color: #503C3C;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  font-size: 3.2em;
   text-align: center;
-  padding: 60px 0;
+}
+
+#home h2 span {
+  color: #e30a25;
+}
+
+#home p.sub {
+  color: #6A6A6A;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*===== Our Way =====*/
+
+#home .process {
+  background: #fafafa;
+  padding: 80px 0;
   overflow: hidden;
 }
 
-
-#home .process h2 {
-  font-size: 3em;
-  font-weight: 900;
-  letter-spacing: 0.03em;
-  color: #e30a25;
-  color: #423131;
-  text-transform: uppercase;
+#home section.methodologies {
+  background: black;
+  overflow: hidden;
+  margin-top: 40px;
 }
 
-
-#home .process h2 span {
-
-  color: #e30a25;
-
-}
-
-
-#home .process h3 {
-  font-family: 'Open Sans', sans-serif;
-}
-
-
-section.process article {
+#home section.methodologies article {
   background: red;
   height: 200px;
   float: left;
-  width: 30%;
-  margin: 5% 2% 0 0;
+  width: 32%;
+  margin-right: 2%;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#home section.methodologies article:last-child {
+  margin-right: 0;
 }
 
 
+/*===== About us =====*/
 
-/*=== About Us ===*/
-
-#home section.about-us {
+#home .about-us {
   overflow: hidden;
   padding: 80px 0 100px;
-  text-align: center;
 }
 
-
-#home section.about-us h2 {
-  font-size: 3.2em;
-  font-weight: 900;
-  letter-spacing: 0.03em;
-  color: #e30a25;
-  color: #423131;
-  text-transform: uppercase;
-}
-
-
-#home section.about-us h2 span {
-  color: #d72a27;
-}
-
-
-
-
-
-
-#home section.about-us h3 {
-  font-size: 1.1em;
-  margin-top: 20px;
-  color: #6a6a6a;
-/*  color: #6e6e6e;*/
-  margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.6em;
-}
-
-section.about-us ul {
-  margin-top: 50px;
+#home .about-us ul {
+  margin-top: 40px;
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-section.about-us ul li {
-  background: #fff;
+#home .about-us ul li {
   float: left;
   width: 21%;
   margin-right: 2%;
-  height: 100%;
 }
 
-section.about-us ul li img {
-
+#home .about-us ul li img {
   width: 100%;
 }
 
-section.about-us ul li.arrow {
+#home .about-us ul li.arrow {
   width: 3%;
   height: 100px;
 }
 
-section.about-us ul li.arrow img {
+#home .about-us ul li.arrow img {
   width: 21px;
-  margin-top: 90px;
+  margin-top: 85px;
 }
 
-section.about-us ul li:last-child {
+#home .about-us ul li:last-child {
   margin-right: 0;
 }
 
-section.about-us a {
-  color: #e30a25;
-/*  color: #423131;*/
-  padding: 10px 60px;
-  background: #fff;
-  border: 3px solid #e30a25;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  word-spacing: 0.2em;
-  font-size: 1.1em;
-}
-
-
-section.about-us a:hover {
-  color: #fff;
-/*  color: #423131;*/
-  padding: 10px 60px;
-  background: #e30a25;
-  border: 3px solid #e30a25;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  word-spacing: 0.2em;
-  font-size: 1.1em;
-}
 
 
 
 /*=== Our Clients ===*/
 
-.our-clients {
+#home .our-clients {
   background: #fafafa;
   padding: 80px 0;
-  text-align: center;
 }
 
-
-.our-clients h2 {
-  font-size: 3.2em;
-  font-weight: 900;
-  letter-spacing: 0.03em;
-  color: #e30a25;
-  color: #423131;
-  color: #503c3c;
-  text-transform: uppercase;
-}
-
-.our-clients h2 span {
-
-  color: #e30a25;
-}
-
-
-
-
-.our-clients h3 {
-  font-size: 1.1em;
-  margin-top: 30px;
-  color: #7E7E7E;
-  color: #6e6e6e;
-  letter-spacing: 0.02em;
-  margin-bottom: 60px;
-}
-
-.our-clients h3 {
-  font-size: 1.05em;
-  margin-top: 25px;
-  color: #7d7d7d;
-/*  color: #6b6363;*/
-  margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1.6em;
-  letter-spacing: 0.01em;
-}
-
-
-.our-clients a {
-  color: #e30a25;
-/*  color: #423131;*/
-  padding: 10px 60px;
-  background: #fff;
-  border: 3px solid #e30a25;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  word-spacing: 0.2em;
-  font-size: 1.1em;
-}
-
-
-.our-clients a:hover {
-  color: #fff;
-/*  color: #423131;*/
-  padding: 10px 60px;
-  background: #e30a25;
-  border: 3px solid #e30a25;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  word-spacing: 0.2em;
-  font-size: 1.1em;
-}
-
-
-section.videos {
-/*  background: #f3f3f3;*/
-  width: 100%;
+#home section.videos {
   overflow: hidden;
   margin-top: 40px;
 }
 
-section.videos article{
+#home section.videos article{
   float: left;
   background: #fff;
   height: 200px;
@@ -374,9 +222,12 @@ section.videos article{
   margin-right: 2%;
 }
 
-section.videos article:last-child {
+#home section.videos article:last-child {
   margin-right: 0%;
 }
+
+
+
 
 
 
