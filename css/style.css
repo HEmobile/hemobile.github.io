@@ -84,7 +84,7 @@ header ul li {
   font-size: 3em;
 }
 
-#home h2, #about h2 {
+#home h2, #about h2, #contact h2 {
   color: #503C3C;
   font-weight: 900;
   letter-spacing: 0.03em;
@@ -92,7 +92,7 @@ header ul li {
   text-align: center;
 }
 
-#home h2 span, #about h2 span {
+#home h2 span, #about h2 span, #contact h2 span {
   color: #e30a25;
 }
 
@@ -301,14 +301,26 @@ a.b {
   overflow: hidden;
 }
 
+#about .others h2 {
+  font-size: 2em;
+  margin: 30px 0;
+}
+
 #about .others section {
   background: #fff;
   overflow: hidden;
 }
 
 #about .others section article {
+  background: #fafafa;
+  padding: 30px;
   float: left;
-  width: 50%;
+  width: 49%;
+  margin-right: 2%;
+}
+
+#about .others section article:last-child {
+  margin-right: 0;
 }
 
 #about .others section article img {
@@ -323,46 +335,28 @@ a.b {
 
 
 
+/*/*==================*/
+/*===== Contact =====*/
+/*==================*/
 
-
-
-
-/*=== Contatc Us ===*/
-
-
-#contact section.banner {
+#contact .cover {
   height: 260px;
-  padding: 0;
+  padding-top: 80px;
 }
 
-
-#contact .cover-image {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  width: 100%;
+#contact .cover h1 {
+  font-weight: 700;
+  font-size: 1.4em;
 }
 
-#contact .cover-image img {
-  width: 100%;
-
+#contact .lets-talk {
+  padding: 80px 0;
+  text-align: center;
 }
 
-
-
-
-
-
-
-
-#contact section.contact-ways {
-  padding: 60px 0;
-  overflow: hidden;
-}
-
-#contact section.form {
+#contact .form {
   background: #fafafa;
-  padding: 30px 0;
+  padding: 100px 0;
   overflow: hidden;
 }
 
@@ -373,74 +367,32 @@ a.b {
 
 /*=== offices ===*/
 
-section.offices{
+#contact .offices{
   overflow: hidden;
   padding: 60px 0;
   text-align: center;
 }
 
-section.offices ul {
+#contact .offices ul {
   margin-top: 40px;
   overflow: hidden;
 }
 
-section.offices ul li {
+#contact .offices ul li {
   float: left;
   width: 32%;
   margin-right: 2%;
   overflow: hidden;
 }
 
-section.offices ul li iframe {
+#contact .offices ul li iframe {
   width: 100%;
   height: 200px;
 }
 
-
-section.offices ul li:last-child {
+#contact .offices ul li:last-child {
   margin-right: 0%;
 }
-
-section.map {
-  background: #707070;
-  height: 400px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
