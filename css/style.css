@@ -26,16 +26,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
-  line-height: 1;
-/*  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;*/
-font-family: Helvetica, Arial, sans-serif;
-}
-
-h1, h2 {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-}
-
 ol, ul {
   list-style: none;
 }
@@ -50,6 +40,16 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  line-height: 1;
+/*  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;*/
+font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -178,6 +178,27 @@ section.our-clients {
   text-align: center;
 }
 
+
+section.our-clients h2 {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  color: #e30a25;
+
+}
+
+section.our-clients h3 {
+  font-size: 1.1em;
+  margin-top: 30px;
+  color: #7E7E7E;
+  color: #6e6e6e;
+  letter-spacing: 0.02em;
+  margin-bottom: 60px;
+}
+
+
+
+
 section.videos {
 /*  background: #f3f3f3;*/
   width: 100%;
@@ -197,24 +218,20 @@ section.videos article:last-child {
   margin-right: 0%;
 }
 
-section.clients {
-  margin-top: 50px;
-}
-
-section.clients ul {
-  background: #f3f3f3;
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-section.clients li {
+a.b {
   background: #fff;
-  float: left;
-  padding: 30px;
-  width: 18%;
-  margin: 0 1% 4% 0;
+  font-size: 1.25em;
+  letter-spacing: 0.04em;
+  padding: 13px 45px;
+  margin-top: 200px;
+  color: #e30a25;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  border: 3px solid #e30a25;
+  font-family: 'Lato', Helvetica, Arial, sans-serif
 }
-
 
 
 /*=== Call to Action ===*/
@@ -285,6 +302,7 @@ section.call-to-action article a {
   background: #f7f7f7;
 /*  background: #f3f0ed;
   background: #f8f7f4;*/
+  padding: 60px  0 100px;
 }
 
 #about section.about-us h2 {
