@@ -28,7 +28,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+/*  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;*/
+font-family: Helvetica, Arial, sans-serif;
 }
 
 h1, h2 {
@@ -287,10 +288,9 @@ section.call-to-action article a {
 }
 
 #about section.about-us h2 {
-  font-size: 2.8em;
+  font-size: 3em;
   font-weight: 900;
   letter-spacing: 0.03em;
-
   color: #e30a25;
 
 }
@@ -304,18 +304,27 @@ section.call-to-action article a {
   margin-bottom: 60px;
 }
 
+
+
+
 #about section.about-us ul {
-  background: #ccc;
+  background: transparent;
 }
 
 #about section.about-us ul li {
   width: 23.5%;
   margin-right: 2%;
-  height: 180px;
+  height: 100%;
+  background: transparent;
 }
 
 #about section.about-us ul li:last-child {
   margin-right: 0;
+}
+
+
+#about section.about-us ul li img {
+  width: 100%;
 }
 
 #about section.fouders {
