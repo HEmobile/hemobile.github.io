@@ -84,7 +84,7 @@ header ul li {
   font-size: 3em;
 }
 
-#home h2, #about h2, #contact h2 {
+h2 {
   color: #503C3C;
   font-weight: 900;
   letter-spacing: 0.03em;
@@ -92,11 +92,11 @@ header ul li {
   text-align: center;
 }
 
-#home h2 span, #about h2 span, #contact h2 span {
+h2 span {
   color: #e30a25;
 }
 
-#home p.sub, #about p.sub {
+p.sub {
   color: #6A6A6A;
   font-weight: 400;
   font-size: 1.1em;
@@ -393,6 +393,112 @@ a.b {
 #contact .offices ul li:last-child {
   margin-right: 0%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/*======================*/
+/*===== Open Source =====*/
+/*======================*/
+
+
+#opensource .cover {
+  height: 260px;
+  padding-top: 80px;
+}
+
+#opensource .cover h1 {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+#opensource .mission {
+  padding: 80px 0;
+  text-align: center;
+}
+
+#opensource .mission h3 {
+  line-height: 1.8em;
+}
+
+
+/*=== Gems ===*/
+
+#opensource .gems {
+  background: #fafafa;
+  padding: 80px 0 100px;
+  overflow: hidden;
+}
+
+#opensource .gems ul {
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+#opensource .gems ul li {
+  width: 32%;
+  margin-right: 2%;
+  height: 100%;
+  float: left;
+  border: 2px solid #fff;
+  padding: 40px 20px;
+  min-height: 200px;
+}
+
+#opensource .gems ul li:last-child {
+  margin-right: 0;
+}
+
+#opensource .gems ul li.gem-hover {
+  background: #fff;
+  border: 2px solid #f3f6f6;
+}
+
+#opensource .gems h4 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #e30a25;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+#opensource .gems ul li p {
+  color: #4a4a4a;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 
 
