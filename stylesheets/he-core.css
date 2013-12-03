@@ -292,7 +292,7 @@ Home
   background-color: #fff;
   display: inline-block;
   line-height: 20px;
-  padding: 30px 3% 0 3%;
+  padding: 30px 3% 20px 3%;
   min-height: 225px;
 }
 
@@ -1975,7 +1975,7 @@ footer a:hover {
 .offices { overflow: hidden; }
 
 .offices li {
-	width: 25%;
+	width: 33%;
   line-height: 17px;
   font-size: 12px;
   float: left;
