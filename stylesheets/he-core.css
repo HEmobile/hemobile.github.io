@@ -2020,7 +2020,6 @@ Media Queries for Tablets
 @media (max-width:960px) {
 
   .containner { width: 700px; }
-  header.default .logo { width: 155px; }
   #menu2 { margin-top: 8px; }
 
 
@@ -2150,7 +2149,6 @@ Media Queries for Tablets
     display:none;
   }
 
-
 }
 
 
@@ -2159,8 +2157,6 @@ Max Width, 686px
 Media Queries for Smartphones
 ------------------------------------------------------------------------------*/
 
-
-
 @media only screen and (max-width: 686px) {
 
   .containner {
@@ -2168,7 +2164,7 @@ Media Queries for Smartphones
     padding: 0 5% 0 5%;
   }
 
-  header.default .logo { width: 100px; }
+  header.default .logo { width: 112px; }
 
   #menu-trigger {
     display: inline-block;
@@ -2565,7 +2561,8 @@ Media Queries with adjustments for Smartphones
   	top: 5%;
   	margin-left: -145px;
   }
-    /*-midiakit-*/
+
+  /*-midiakit-*/
 
   .resizeble_img {
     width:300px;
@@ -2606,7 +2603,6 @@ Media Queries with adjustments for Smartphones
   }
 
 
-
 }
 
 
@@ -2615,15 +2611,12 @@ Max Width, 481px
 Media Queries with more adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
-
-
 @media (max-width:481px) {
 
   #home h2 {
     font-size: 45px;
     line-height: 52px;
   }
-
 
   #home h3 { font-size: 24px; }
 
