@@ -206,6 +206,7 @@ Home
 }
 
 .logo-tip-trigger span {
+  border-radius: 5px;
   width: 160px;
   height: auto;
   line-height: 20px;
@@ -216,7 +217,7 @@ Home
   position: absolute;
   pointer-events: none;
   text-align: center;
-  bottom: 100px;
+  top: -120px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   z-index: 10;
@@ -230,17 +231,17 @@ Home
 }
 
 .logo-tip-trigger span:before,
-.logo-tip-trigger span:after  {
+.logo-tip-trigger span:after {
   content: '';
   position: absolute;
-  top: -10px;
+  bottom: -10px;
   left: 50%;
   margin-left: 0;
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+  border-top: 10px solid #fff;
 }
 
 .logo-tip-trigger span:after {
@@ -250,7 +251,7 @@ Home
 
 .logo-tip-trigger:hover span {
   opacity: 1;
-  top: 70px;
+  top: -80px;
 }
 
 
