@@ -205,47 +205,52 @@ Home
   position: relative;
 }
 
-.logo-tip-trigger img {
+.logo-tip-trigger span {
   width: 160px;
   height: auto;
   line-height: 20px;
-  padding: 10px;
   left: 50%;
   margin-left: -87px;
-  font-size: 14px;
-  color: #fff;
-  text-align: center;
   background: #fff;
   text-indent: 0px;
-  border-radius: 5px;
   position: absolute;
   pointer-events: none;
+  text-align: center;
+  bottom: 100px;
   opacity: 0;
   transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 
-.logo-tip-trigger img:before,
-.logo-tip-trigger img:after {
+.logo-tip-trigger img {
+  border-radius: 5px;
+  width: 160px;
+  padding: 10px;
+  background: #fff;
+}
+
+.logo-tip-trigger span:before,
+.logo-tip-trigger span:after  {
   content: '';
   position: absolute;
-  bottom: 35px;
+  top: -10px;
   left: 50%;
-  margin-left: -9px;
+  margin-left: 0;
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-top: 10px solid #fff;
+  border-bottom: 10px solid #fff;
 }
 
-.logo-tip-trigger img:after {
+.logo-tip-trigger span:after {
   border-top: 10px solid #fff;
   display: none;
 }
 
-.logo-tip-trigger:hover img {
+.logo-tip-trigger:hover span {
   opacity: 1;
-  bottom: 45px;
+  top: 70px;
 }
 
 
@@ -270,9 +275,8 @@ Home
   opacity: .8;
 }
 
-.icons a {
-  position: relative;
-}
+.icons a { position: relative; }
+.icons a:hover { opacity: .8; }
 
 .icons a span {
   width: 100px;
