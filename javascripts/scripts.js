@@ -106,20 +106,6 @@ var App = {
 		$('.slide-trigger').collapsable();
     
 
-    /* Change Company */
-
-		$('h1 a').hover(function(){
-
-      $('.logo-menu').show();
-
-  		$('.logo-menu').mouseleave(function(){
-  			$(this).hide();
-  		});
-      return false
-
-		});
-
-
     /* PrettyPhoto */
 
 		$("a[rel^='prettyPhoto']").prettyPhoto({
@@ -231,3 +217,10 @@ var App = {
 jQuery(function(){
 	App.StartApp();
 });
+
+$(document).ready(function(){
+  $("img[src='/images/time/time-eduardo.jpg']").on("hover", function(){
+    $(this).attr("src", "/images/time/time-eduardo.gif");
+  });
+});
+
