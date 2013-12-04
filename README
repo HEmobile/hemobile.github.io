@@ -1,9 +1,11 @@
-Site da Helabs
+Site da HE:mobile
 
-http://helabs.com.br
+http://hemobile.com.br
 
 ## Rodando
 
 Rode com
 
-    $ jekyll -w serve
+    $ bundle exec jekyll serve -w
+
+    Ele estará disponível em http://localhost:4000
