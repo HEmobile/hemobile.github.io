@@ -150,6 +150,7 @@ Nav
   text-decoration: none;
   font-size: 11px;
   color: #ffe3e2;
+  display: none;
 }
 
 .languages:hover {
@@ -168,7 +169,7 @@ Nav
   background: #333;
   position: absolute !important;
   right: 5%;
-  top: 10px;
+  top: 5px;
   display: none;
   color: #fff;
   cursor: pointer;
@@ -2178,6 +2179,8 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 112px; }
+  
+  .logo-menu { display: none !important; }
 
   #menu-trigger {
     display: inline-block;
