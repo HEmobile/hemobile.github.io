@@ -560,9 +560,7 @@ Process (Mágica)
 
 /* Process Entry */
 
-#process-entry {
-  margin-bottom: 30px;
-}
+#process-entry { margin-bottom: 30px; }
 
 #process-entry:after {
   visibility: hidden;
@@ -583,15 +581,8 @@ Process (Mágica)
   text-align: left;
 }
 
-.left-column {
-  float: left;
-}
-
-.right-column {
-  float: right;
-}
-
-.bottom-column { height: 300px; }
+.left-column { float: left; }
+.right-column { float: right; }
 
 #process-entry h3 {
   font-weight: 300;
@@ -608,9 +599,7 @@ Process (Mágica)
   color: rgb(71, 60, 60);
 }
 
-#process-entry strong {
-  margin: 20px 0 5px 0;
-}
+#process-entry strong { margin: 20px 0 5px 0; }
 
 #process-entry strong a {
   text-decoration: underline;
@@ -661,9 +650,7 @@ Process (Mágica)
     background-size: 30px 30px;
   }
 
-  .video {
-    width: 90%;
-  }
+  .video { width: 90%; }
 }
 
 .modalBox {
