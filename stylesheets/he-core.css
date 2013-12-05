@@ -2704,6 +2704,8 @@ Media Queries with more adjustments for Smartphones
   }
 
   #home h3 { font-size: 24px; }
+  
+  .red-button { max-width: 220px; }
 
   .cover-jobs li {
     margin: 10px 0 0 0;
@@ -2789,14 +2791,11 @@ Media Queries with more adjustments for Smartphones
     height:101px;
   }
 
-  .red-button {
-    max-width: 100px;
-  }
 }
 
 
 /*
-Max Width, 400
+Max Width, 400px
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 400px) {
