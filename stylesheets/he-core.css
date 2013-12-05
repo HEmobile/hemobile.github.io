@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 a { color:#b80606; }
 span.red { color: #b20000; }
 
+
 /* Viewport */
 
 html, body {
@@ -568,42 +569,48 @@ Process (Mágica)
 
 .proc-desc-01 {
   width: 155px;
-  left: 120px; top: 115px;
+  left: 120px;
+  top: 115px;
 }
 
 .proc-desc-01 p { margin: 4px 0 0 0; }
 
 .proc-desc-02 {
   width: 157px;
-  left: 340px; top: 160px;
+  left: 340px;
+  top: 160px;
 }
 
 .proc-desc-02 p { margin: 4px 0 0 0; }
 
 .proc-desc-03 {
   width: 172px;
-  left: 270px; top: 35px;
+  left: 270px;
+  top: 35px;
 }
 
 .proc-desc-03 p { margin: 4px 0 0 0; }
 
 .proc-desc-04 {
   width: 145px;
-  left: 650px; top: 50px;
+  left: 650px;
+  top: 50px;
 }
 
 .proc-desc-04 p { margin: 12px 0 0 0; }
 
 .proc-desc-05 {
   width: 100px;
-  left: 650px; top: 230px;
+  left: 650px;
+  top: 230px;
 }
 
 .proc-desc-05 p { margin: 12px 0 0 0; }
 
 .proc-desc-06 {
   width: 100px;
-  left: 480px; bottom: 85px;
+  left: 480px;
+  bottom: 85px;
 }
 
 .proc-desc-06 p { margin: 4px 0 0 0; }
@@ -785,9 +792,7 @@ Cliente Feliz
 }
 
 #cliente-feliz .videothumbs,
-#happy-costumer .videothumbs {
-  margin-bottom: 25px;
-}
+#happy-costumer .videothumbs { margin-bottom: 25px; }
 
 .videothumbs li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -861,9 +866,7 @@ Sobre Nós
   min-height: 0;
 }
 
-.videothumbs2 {
-  margin-bottom: 30px;
-}
+.videothumbs2 { margin-bottom: 30px; }
 
 .videothumbs2 li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -1499,227 +1502,6 @@ Services
 }
 
 
-/*
-============================================|
-
-                  MIDIAKIT
-
-============================================|
-*/
-
-.services-text2 {
-  width: 80%;
-  position: relative;
-  line-height: 28px;
-  font-size: 17px;
-  margin-right:auto;
-  margin-left:auto;
-  text-align:center;
-  background-color: #fff;
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-
-
-.midiakit-text p{
-  font-family: Helvetica, sans-serif;
-  font-size:20px;
-  font-weight: bold;
-}
-
-.midiakit-text span{
-  color: #990000;
-}
-
-
-/* BOX DOWNLOAD AND CONTENTS */
-
-.box_download {
-  display:block;
-  width: 100%;
-  height:300px;
-  margin-right:auto;
-  margin-left:auto;
-  border: #ffcccc 3px dashed;
-  text-align:center;
-}
-
-.box_download h3{
-  font-family: Helvetica Neue, sans-serif;
-  font-weight: 500;
-  font-size:34px;
-  margin-top:35px;
-  margin-bottom: 35px;
-  color:#990000;
-}
-
-.box_download p{
-  position:relative;
-  padding:20px;
-}
-
-.bt_download {
-  margin-top: 0px;
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.bt_download a{
-    display:block;
-    background-image: url("/images/bt_download.png");
-    color:#fff;
-    text-decoration: none;
-    font-family: Helvetica Neue, sans-serif;
-    text-align: left;
-    font-size: 16px;
-    font-weight: lighter;
-    width: 300px;
-    height:60px;
-}
-
-.bt_download_text{
-  text-transform: uppercase;;
-  display:block;
-  padding-left: 70px;
-  padding-top: 15px;
-  letter-spacing: 1px;
-}
-/* End of BOX DOWNLOAD
-______________________________________*/
-
-/* BOX COLORS AND CONTENTS */
-
-.box_colors {
-  display:block;
-  width: 100%;
-  height:180px;
-  margin-right: auto;
-  margin-left:auto;
-}
-
-.box_colors h3{
-  font-family: Helvetica Neue, sans-serif;
-  font-weight: 500;
-  font-size:34px;
-  margin-top:50px;
-  margin-bottom: 15px;
-  color:#990000;
-}
-
-.box_colors p{
-  position:relative;
-  display:table;
-  margin-left:auto;
-  margin-right: auto;
-}
-
-.box_colors_show {
-  width: 702px;
-  height:80px;
-  background-color: #000;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  text-align: left;
-  padding:0px;
-}
-
-.box_colors_show p{
-  padding: 0px;
-  margin-left:5px;
-  margin-top:0px;
-  margin-bottom:0px;
-  color:#fff;
-  font-weight: lighter;
-  font-family: helvetica neue, sans-serif;
-  letter-spacing: 1px;
-}
-
-.bt_colors {
-  width:100px;
-  height:50px;
-  display: table-cell;
-  margin:0px;
-  padding:0px;
-  text-align:center;
-}
-
-.color_number {
-  display:block;
-  width:100px;
-  height:30px;
-  font-size: 18px;
-  font-family: helvetica neue, sans-serif;
-  font-weight: lighter;
-  color: transparent;
-  margin-top: 20px;
-
-}
-
-.color_number:hover {
-  color:#fff;
-  background-color: #000;
-}
-
-
-
-/* End of BOX COLORS
-______________________________________*/
-
-/* BOX FONTS AND CONTENTS */
-
-.box_fonts {
-  display:block;
-  width: 100%;
-  height:450px;
-  margin-right: auto;
-  margin-left:auto;
-}
-
-.box_fonts h3{
-  font-family: Helvetica Neue, sans-serif;
-  font-weight: 500;
-  font-size:34px;
-  margin-top:50px;
-  margin-bottom: 15px;
-  color:#990000;
-}
-
-.box_fonts p{
-  position:relative;
-  display:table;
-  margin-left:auto;
-  margin-right: auto;
-}
-
-#font_show {
-  width:800px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#font_show img{
-  border-bottom: dashed 1px #ccc;
-  margin-bottom: 10px;
-}
-
-.font_show_img {
-  display:none;
-}
-
-.responsive_option {
-  display:none;
-}
-
-/* END OF MIDIAKIT
-==================================================|
-
-
-
 /* ====================
 Open Source
 ==================== */
@@ -1744,9 +1526,7 @@ Open Source
 
 /* Highlight Projects */
 
-.high-light-projects {
-  margin: 0 0 35px 0;
-}
+.high-light-projects { margin: 0 0 35px 0; }
 
 .high-light-projects:after {
   visibility: hidden;
@@ -1915,9 +1695,7 @@ Mailing
   text-decoration: none;
 }
 
-#mailing .display_archive .campaign a:hover {
-  opacity: .8;
-}
+#mailing .display_archive .campaign a:hover { opacity: .8; }
 
 
 /* ====================
@@ -2070,16 +1848,17 @@ footer a:hover {
   display: inline-block;
 }
 
+
+
 /*/=============================================================================
-
-
 
 
                         MEDIA QUERIES BEGINS HERE
 
 
-
 =============================================================================/*/
+
+
 /*
 Max Width, 960px
 Media Queries for Tablets
@@ -2141,27 +1920,33 @@ Media Queries for Tablets
   }
 
   .proc-desc-01 {
-    left: 20px; top: 115px;
+    left: 20px;
+    top: 115px;
   }
 
   .proc-desc-02 {
-    left: 90px; top: 170px;
+    left: 90px;
+    top: 170px;
   }
 
   .proc-desc-03 {
-    left: 170px; top: 15px;
+    left: 170px;
+    top: 15px;
   }
 
   .proc-desc-04 {
-    left: 520px; top: 20px;
+    left: 520px;
+    top: 20px;
   }
 
   .proc-desc-05 {
-    left: 500px; top: 160px;
+    left: 500px;
+    top: 160px;
   }
 
   .proc-desc-06 {
-    left: 260px; top: 275px;
+    left: 260px;
+    top: 275px;
   }
 
 
@@ -2182,44 +1967,6 @@ Media Queries for Tablets
     margin-right: 0;
     margin-left: 0;
     height: auto;
-  }
-
-    /*-midiakit-*/
-
-
-  .box_colors {
-    height:auto;
-  }
-
-  .responsive_option {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    height:auto;
-  }
-
-  .font_show_img {
-    display:block;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .box_colors_show {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
   }
 
 }
@@ -2249,6 +1996,7 @@ Media Queries for Smartphones
     width: 100%;
     text-align: left;
     display: none;
+    display: block !important;
   }
 
   #menu2 li {
@@ -2312,9 +2060,7 @@ Media Queries for Smartphones
     margin: 0 2px 0 2px !important;
   }
 
-  .icons a img {
-    width: 40px;
-  }
+  .icons a img { width: 40px; }
 
 
   /* Cover Banner */
@@ -2375,9 +2121,7 @@ Media Queries for Smartphones
 
   /* Services Page */
 
-  .services-text {
-    width: 100%;
-  }
+  .services-text { width: 100%; }
 
   .services .videothumbs {
     width: 80%;
@@ -2564,43 +2308,6 @@ Media Queries for Smartphones
     padding: 3%;
   }
 
-    /*-midiakit-*/
-
-
-  .box_colors {
-    height:auto;
-  }
-
-  .responsive_option {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    height:auto;
-  }
-
-  .font_show_img {
-    display:block;
-  }
-  .box_colors_show {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
-
 }
 
 
@@ -2643,50 +2350,7 @@ Media Queries with adjustments for Smartphones
     padding: 3%;
   }
 
-  .videothumbs blockquote {
-    height: auto;
-  }
-
-  /*-midiakit-*/
-
-  .resizeble_img {
-    width:300px;
-    height:121px;
-  }
-
-  .box_colors {
-    height:auto;
-  }
-
-  .responsive_option {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    height:auto;
-  }
-
-  .font_show_img {
-    display:block;
-  }
-  .box_colors_show {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
+  .videothumbs blockquote { height: auto; }
 
 }
 
@@ -2749,47 +2413,6 @@ Media Queries with more adjustments for Smartphones
   }
 
   #cover-banner p { font-size: 14px; }
-  
-
-  /*--midiakit--*/
-
-  .box_colors {
-    height:auto;
-  }
-
-  .responsive_option {
-    display:block;
-  }
-
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    display:none;
-  }
-
-  .font_show_img {
-    display:none;
-
-  }
-  .box_colors {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
-  .resizeble_img {
-    width:250px;
-    height:101px;
-  }
 
 }
 
@@ -2806,9 +2429,6 @@ Max Width, 400px
   .videothumbs { padding: 0; } 
 
 }
-
-
-/*END OF MEDIA QUERIES--------------------------------------------------------
 
 
 /* ====================
@@ -3006,12 +2626,4 @@ TipTip
 	#tiptip_holder.tip_top #tiptip_arrow_inner {
 		border-top-color: rgba(20,20,20,0.92);
 	}
-}
-
-@media only screen and (min-width: 686px) {
-
-  #menu2 {
-    display: block !important;
-  }
-
 }
