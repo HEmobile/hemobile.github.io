@@ -770,7 +770,7 @@ Cliente Feliz
 #happy-costumer {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
-  padding: 60px 0 1px 0;
+  padding: 25px 0 25px 0;
 }
 
 #cliente-feliz:after,
@@ -786,7 +786,7 @@ Cliente Feliz
 
 #cliente-feliz .videothumbs,
 #happy-costumer .videothumbs {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .videothumbs li {
@@ -796,8 +796,10 @@ Cliente Feliz
   margin: 0 3% 30px 3%;
   padding: 10px;
   display: inline-block;
+  text-align: left;
   font-size: 14px;
   opacity: 1;
+  float: left;
 }
 
 .videothumbs img {
@@ -805,27 +807,37 @@ Cliente Feliz
   display: block;
 }
 
-.videothumbs img:hover { opacity: .5; }
-
 .videothumbs li:hover {
   background: url("/images/play.jpg") no-repeat white;
   background-size: 100%;
 }
 
+.videothumbs li a:hover img { opacity: .5; }
+
 
 /* Video Text */
 
 .videothumbs h3 {
-  margin: 10px 0 0 0;
+  margin: 12px 0 0 0;
   font-size: 14px;
   color: #b80606;
 }
 
 .videothumbs p {
   font-size: 12px;
+  margin: 2px 0 8px 0;
   color: #8c8c8c;
-  margin: 2px 0 0 0;
   display: block;
+}
+
+.videothumbs blockquote {
+  font-style: italic;
+  border-top: 1px solid #eee;
+  height: 60px;
+  font-size: 14px;
+  padding: 8px 0 0 0;
+  color: #8c8c8c;
+  margin: 0;
 }
 
 
@@ -2156,6 +2168,11 @@ Media Queries for Tablets
   /* Mailing page*/
 
   .cover-mailing-page { margin-top: 20px; }
+  
+  
+  /* Cliente Feliz */
+
+  .videothumbs blockquote { height: 80px; }
 
 
   /* Open Source */
@@ -2352,13 +2369,8 @@ Media Queries for Smartphones
 
 
   /* Cliete Feliz */
-
+  
   .videothumbs li { width: 39%; }
-
-  .videothumbs li:hover {
-    background: url("/images/play.jpg") no-repeat white;
-    background-size: 100%;
-  }
 
 
   /* Services Page */
@@ -2619,6 +2631,21 @@ Media Queries with adjustments for Smartphones
   	top: 5%;
   	margin-left: -145px;
   }
+  
+  
+  /* Cliente Feliz */
+  
+  .videothumbs { padding: 0 15% 0 15%; }
+  
+  .videothumbs li {
+    width: 94%;
+    margin: 0 0 20px 0;
+    padding: 3%;
+  }
+
+  .videothumbs blockquote {
+    height: auto;
+  }
 
   /*-midiakit-*/
 
@@ -2669,7 +2696,7 @@ Max Width, 481px
 Media Queries with more adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
-@media (max-width:481px) {
+@media (max-width: 481px) {
 
   #home h2 {
     font-size: 45px;
@@ -2720,6 +2747,7 @@ Media Queries with more adjustments for Smartphones
   }
 
   #cover-banner p { font-size: 14px; }
+  
 
   /*--midiakit--*/
 
@@ -2764,6 +2792,20 @@ Media Queries with more adjustments for Smartphones
   .red-button {
     max-width: 100px;
   }
+}
+
+
+/*
+Max Width, 400
+------------------------------------------------------------------------------*/
+
+@media (max-width: 400px) {
+  
+
+  /* Cliente Feliz */
+
+  .videothumbs { padding: 0; } 
+
 }
 
 
