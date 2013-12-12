@@ -34,9 +34,12 @@ p { margin:0 0 20px 0; }
 label { cursor:pointer; }
 img { border:none; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: 'Lato', sans-serif; }
 
 a { color:#b80606; }
 span.red { color: #b20000; }
@@ -72,7 +75,7 @@ Patterns
 .default {
   width: 100%;
   background-color: #fff;
-  border-top: 5px solid #B80606;
+  border-top: 5px solid #b80606;
   box-shadow: 0 -24px 8px 27px rgba(0, 0, 0, 0.3);
   padding: 10px 0 10px 0;
   position: fixed;
@@ -88,7 +91,7 @@ Patterns
   float: left;
 }
 
-.logo:hover { opacity: .9; }
+.logo:hover { opacity: .8; }
 
 
 /* ====================
@@ -128,7 +131,7 @@ Nav
 /* Languages */
 
 .languages {
-  background: #B80606;
+  background: #b80606;
   position: absolute;
   right: 10px; top: -7px;
   padding: 5px 7px 5px 7px;
@@ -139,8 +142,8 @@ Nav
 }
 
 .languages:hover {
-  opacity: 1;
   color: #fff;
+  opacity: 1;
 }
 
 
@@ -1714,9 +1717,7 @@ Contact
   margin: 30px auto;
 }
 
-#talk-to-us form li {
-  display: inline-block;
-}
+#talk-to-us form li { display: inline-block; }
 
 #talk-to-us input[type="text"] {
   border-radius: 4px;
@@ -1762,9 +1763,7 @@ Contact
   color: #fff;
 }
 
-#talk-to-us button:hover {
-  opacity: .8;
-}
+#talk-to-us button:hover { opacity: .8; }
 
 .contact-send {
   font-size: 17px;
@@ -1804,7 +1803,7 @@ footer a {
 
 footer a:hover {
   opacity: 1;
-  color:#fff;
+  color: #fff;
 }
 
 .offices { overflow: hidden; }
@@ -1841,9 +1840,7 @@ footer a:hover {
   float: left;
 }
 
-.footer-links ul {
-  float: right;
-}
+.footer-links ul { float: right; }
 
 .footer-links li {
   margin-left: 20px;
@@ -1866,7 +1863,7 @@ Max Width, 960px
 Media Queries for Tablets
 ------------------------------------------------------------------------------*/
 
-@media (max-width:960px) {
+@media (max-width: 960px) {
 
   .containner { width: 700px; }
   #menu2 { margin-top: 8px; }
@@ -1989,10 +1986,7 @@ Media Queries for Smartphones
   header.default .logo { width: 112px; }
   
   .logo-menu { display: none !important; }
-
-  #menu-trigger {
-    display: inline-block;
-  }
+  #menu-trigger { display: inline-block; }
 
   #menu2 {
     width: 100%;
@@ -2025,9 +2019,9 @@ Media Queries for Smartphones
   }
 
   #menu2 a:hover {
-    opacity: 1;
     background: #b80606;
     color: #fff;
+    opacity: 1;
   }
 
   .languages {
@@ -2039,7 +2033,7 @@ Media Queries for Smartphones
 
   .languages:hover {
     opacity: 1;
-    color: #B80606;
+    color: #b80606;
   }
 
 
@@ -2106,11 +2100,13 @@ Media Queries for Smartphones
 
   /* Red Button */
 
-  a.red-button, a.white-button {
-    border-radius:12px;
-    width:250px; height:auto;
-    padding:15px !important;
-    text-align:center;
+  a.red-button,
+  a.white-button {
+    border-radius: 12px;
+    width: 250px;
+    height: auto;
+    padding: 15px !important;
+    text-align: center;
     font-size:16px;
   }
 
@@ -2256,9 +2252,7 @@ Media Queries for Smartphones
 
   /* Footer */
 
-  footer {
-    padding: 20px 0 200px 0;
-  }
+  footer { padding: 20px 0 200px 0; }
 
   .offices li {
     width: 100%;
@@ -2295,9 +2289,7 @@ Media Queries for Smartphones
 
   /* TaLk to us */
 
-  #talk-to-us form {
-    width: auto;
-  }
+  #talk-to-us form { width: auto; }
 
   #talk-to-us input[type="text"] {
     width: 94%;
@@ -2319,7 +2311,7 @@ Max Width, 581px
 Media Queries with adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
-@media (max-width:581px) {
+@media (max-width: 581px) {
 
   .blog-posts {
     width: 100%;
