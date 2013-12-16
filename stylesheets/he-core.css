@@ -843,6 +843,14 @@ Cliente Feliz
   color: #b80606;
 }
 
+.apoio-teste-h3 {
+  font-size: 40px;
+  margin: 35px 0 25px 0;
+  color: #B80606;
+  width: 100%;
+  display: block;
+}
+
 .videothumbs p {
   font-size: 12px;
   margin: 2px 0 8px 0;
