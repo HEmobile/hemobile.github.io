@@ -842,13 +842,17 @@ Cliente Feliz
   font-size: 14px;
   color: #b80606;
 }
-
-.apoio-teste-h3 {
+ 
+.apoio-teste-h3 { /* criado por Rafael Miranda */
   font-size: 40px;
   margin: 35px 0 25px 0;
   color: #B80606;
   width: 100%;
-  display: block;
+  float: left;
+}
+
+.trabalhos-teste-p { /* criado por Rafael Miranda */
+  text-align: right;
 }
 
 .videothumbs p {
