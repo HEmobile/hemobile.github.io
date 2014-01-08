@@ -866,12 +866,19 @@ Cliente Feliz
 
 .trabalhos-descricao { /* criado por Rafael Miranda */
   font-size: 16px;
+  margin: 5px 0 0 0;
+  width: 100%;
+  float: left;
+}
+
+.trabalhos-exemplos { /* criado por Rafael Miranda */
+  font-size: 15px;
   margin: 5px 0 25px 0;
   width: 100%;
   float: left;
 }
 
-.trabalhos-teste-p { /* criado por Rafael Miranda */
+.trabalhos-vejamais { /* criado por Rafael Miranda */
   text-align: right;
 }
 
