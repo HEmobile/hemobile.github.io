@@ -822,6 +822,12 @@ Cliente Feliz
   text-decoration: none;
 }
 
+.videothumbs .centered { /* criado por Rafael Miranda - Centralizar img */
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto
+}
+
 .videothumbs img {
   width: 100%;
   display: block;
@@ -843,10 +849,24 @@ Cliente Feliz
   color: #b80606;
 }
  
-.apoio-teste-h3 { /* criado por Rafael Miranda */
+.trabalhos-h3 { /* criado por Rafael Miranda */
   font-size: 40px;
   margin: 35px 0 25px 0;
   color: #B80606;
+  width: 100%;
+  float: left;
+}
+
+.trabalhos-detalhe { /* criado por Rafael Miranda */
+  font-size: 16px;
+  margin: -25px 0 0 0;
+  width: 100%;
+  float: left;
+}
+
+.trabalhos-descricao { /* criado por Rafael Miranda */
+  font-size: 16px;
+  margin: 5px 0 25px 0;
   width: 100%;
   float: left;
 }
