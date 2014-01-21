@@ -797,7 +797,8 @@ Cliente Feliz
 }
 
 #cliente-feliz .videothumbs,
-#happy-costumer .videothumbs { margin-bottom: 25px; }
+#happy-costumer .videothumbs,
+#cliente-feliz .videothumbs-cliente { margin-bottom: 25px; }
 
 .videothumbs li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -812,38 +813,58 @@ Cliente Feliz
   float: left;
 }
 
+.videothumbs-cliente li {
+  box-shadow: 0 4px 8px -3px #d8d8d8;
+  width: 24%;
+  background: none repeat scroll 0 0 white;
+  margin: 0 3% 30px 3%;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  font-size: 14px;
+  opacity: 1;
+  float: left;
+  min-height: 440px;
+}
 
-.videothumbs p img { /* criado por Rafael Miranda */
+.videothumbs p img, 
+.videothumbs-cliente p img { /* criado por Rafael Miranda */
   width: auto;
   display: inline-block;
 }
 
-.videothumbs p a { /* criado por Rafael Miranda */
+.videothumbs p a, 
+.videothumbs-cliente p a { /* criado por Rafael Miranda */
   text-decoration: none;
 }
 
-.videothumbs .centered { /* criado por Rafael Miranda - Centralizar img */
+.videothumbs .centered, 
+.videothumbs-cliente .centered { /* criado por Rafael Miranda - Centralizar img */
   display: block; 
   margin-left: auto; 
   margin-right: auto
 }
 
-.videothumbs img {
+.videothumbs img, 
+.videothumbs-cliente img {
   width: 100%;
   display: block;
 }
 
-.videothumbs li:hover {
+.videothumbs li:hover, 
+.videothumbs-cliente li:hover {
   background: url("/images/play.jpg") no-repeat white;
   background-size: 100%;
 }
 
-.videothumbs li a:hover img { opacity: .5; }
+.videothumbs li a:hover img, 
+.videothumbs-cliente li a:hover img { opacity: .5; }
 
 
 /* Video Text */
 
-.videothumbs h3 {
+.videothumbs h3, 
+.videothumbs-cliente h3 {
   margin: 12px 0 0 0;
   font-size: 14px;
   color: #b80606;
@@ -882,14 +903,16 @@ Cliente Feliz
   text-align: right;
 }
 
-.videothumbs p {
+.videothumbs p, 
+.videothumbs-cliente p {
   font-size: 12px;
   margin: 2px 0 8px 0;
   color: #8c8c8c;
   display: block;
 }
 
-.videothumbs blockquote {
+.videothumbs blockquote, 
+.videothumbs-cliente blockquote {
   font-style: italic;
   border-top: 1px solid #eee;
   height: 60px;
@@ -1594,7 +1617,7 @@ Open Source
 
 .high-light-projects div {
   box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 44%;
+  width: 44%; 
   background: #f8f8f8;
   padding: 2%;
   min-height: 260px;
@@ -1605,6 +1628,15 @@ Open Source
 .high-light-projects h4 { margin: 20px 0 10px 0; }
 .high-light-projects img { width: 100%; }
 
+.high-light-projects blockquote {
+  font-style: italic;
+  border-top: 1px solid #eee;
+  height: 60px;
+  font-size: 14px;
+  padding: 8px 0 0 0;
+  color: #8c8c8c;
+  margin: 0;
+}
 
 /* Gems List */
 
