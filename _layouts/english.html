@@ -1,35 +1,13 @@
+
 <!DOCTYPE html>
-<html lang='pt'>
-{% include head.html %}
-<body>
-  <header class="default">
-    <div class="containner">
+<html lang='en'>
+  {% include head.html %}
+  <body>
 
-      <h1>
-        <a href="/en/" title="Back to Home">
-          <img class="logo" src="/images/logo.png" alt="HE:labs">
-        </a>
-      </h1>
+    {% include header_en.html %}
+    {{ content }}
+    {% include footer_en.html %}
 
-      <a class="languages" href="/">
-        Este site em português
-      </a>
-
-      <nav id="menu2">
-        <ul class="global-menu">
-          <li><a href="/en/happy-customers">HE:<span class="doispontos">❤</span></a></li>
-          <li><a href="/en/our-team">Team</a></li>
-          <li><a href="/en/talk-to-us">Talk to us</a></li>
-        </ul>     
-      </nav>
-    
-      <a id="menu-trigger">
-        Menu
-      </a>
-      
-    </div>
-  </header>
-  {{ content }}
-  {% include en_footer.html %}
-</body>
+    {% include footer_scripts.html %}
+  </body>
 </html>
