@@ -7,12 +7,10 @@
       </a>
     </h1>
 
-    <!--
-      <a class="languages" href="/en/">
-      This site in english
+    <a class="lang2" href="{% if page.en %}{{ page.en }}{% else %}/en/{% endif %}">
+      EN
     </a>
-    -->
-
+    
     <nav id="menu2">
       <ul>
         <li><a href="/magica">Mágica</a></li>
