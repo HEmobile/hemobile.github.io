@@ -133,18 +133,20 @@ Nav
 .languages {
   background: #b80606;
   position: absolute;
-  right: 10px; top: -7px;
-  padding: 5px 7px 5px 7px;
+  /*right: 10px; top: -7px;
+  padding: 5px 7px 5px 7px;*/
+  float: left;
   text-decoration: none;
   font-size: 11px;
   color: #ffe3e2;
   display: none;
 }
 
-.languages:hover {
-  color: #fff;
-  opacity: 1;
-}
+
+
+
+
+
 
 
 /* Mobile Menu */
