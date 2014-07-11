@@ -6,10 +6,10 @@
 body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
-	vertical-align: baseline;
-	font-style: normal;
+  vertical-align: baseline;
+  font-style: normal;
   list-style-type: none;
-	padding: 0;
+  padding: 0;
   margin: 0;
   border: 0;
 }
@@ -86,7 +86,7 @@ Patterns
 
 .default .containner { position: relative; }
 
-.logo { 
+.logo {
   width: 177px;
   float: left;
 }
@@ -699,25 +699,25 @@ Process (Mágica)
 /* Modal */
 
 #modalBg {
-	width: 100%;
+  width: 100%;
   height: 100%;
   background: url("/images/modal-bg.png");
-	position: fixed;
-	left: 0; top: 0;
-	float: left;
-	z-index: 9000;
+  position: fixed;
+  left: 0; top: 0;
+  float: left;
+  z-index: 9000;
   display: none;
 }
 
 .modalClose {
-	width: 30px; height: 30px;
+  width: 30px; height: 30px;
   background: url("/images/x2.png");
-	position: absolute;
-	right: -12px; top: -12px;
-	text-indent: -9999px;
-	outline: none;
+  position: absolute;
+  right: -12px; top: -12px;
+  text-indent: -9999px;
+  outline: none;
   cursor: pointer;
-	float: left;
+  float: left;
 }
 
 .modalClose:hover { opacity: .8; }
@@ -735,14 +735,14 @@ Process (Mágica)
 
 .modalBox {
   box-shadow:0 0 75px #450000;
-	width: 460px;
+  width: 460px;
   background: #fff;
-	position: absolute;
+  position: absolute;
   border: 5px solid #eee;
-	top: 30px; left: 50%;
-	z-index: 9999;
-	margin-left: -255px;
-	padding: 15px 20px 20px 20px;
+  top: 30px; left: 50%;
+  z-index: 9999;
+  margin-left: -255px;
+  padding: 15px 20px 20px 20px;
   display: none;
 }
 
@@ -840,49 +840,49 @@ Cliente Feliz
   min-height: 440px;
 }
 
-.videothumbs p img, 
+.videothumbs p img,
 .videothumbs-cliente p img { /* criado por Rafael Miranda */
   width: auto;
   display: inline-block;
 }
 
-.videothumbs p a, 
+.videothumbs p a,
 .videothumbs-cliente p a { /* criado por Rafael Miranda */
   text-decoration: none;
 }
 
-.videothumbs .centered, 
+.videothumbs .centered,
 .videothumbs-cliente .centered { /* criado por Rafael Miranda - Centralizar img */
-  display: block; 
-  margin-left: auto; 
+  display: block;
+  margin-left: auto;
   margin-right: auto
 }
 
-.videothumbs img, 
+.videothumbs img,
 .videothumbs-cliente img {
   width: 100%;
   display: block;
 }
 
-.videothumbs li:hover, 
+.videothumbs li:hover,
 .videothumbs-cliente li:hover {
   background: url("/images/play.jpg") no-repeat white;
   background-size: 100%;
 }
 
-.videothumbs li a:hover img, 
+.videothumbs li a:hover img,
 .videothumbs-cliente li a:hover img { opacity: .5; }
 
 
 /* Video Text */
 
-.videothumbs h3, 
+.videothumbs h3,
 .videothumbs-cliente h3 {
   margin: 12px 0 0 0;
   font-size: 14px;
   color: #b80606;
 }
- 
+
 .trabalhos-h3 { /* criado por Rafael Miranda */
   font-size: 40px;
   margin: 10px 0 0 0;
@@ -916,7 +916,7 @@ Cliente Feliz
   text-align: right;
 }
 
-.videothumbs p, 
+.videothumbs p,
 .videothumbs-cliente p {
   font-size: 12px;
   margin: 2px 0 8px 0;
@@ -924,7 +924,7 @@ Cliente Feliz
   display: block;
 }
 
-.videothumbs blockquote, 
+.videothumbs blockquote,
 .videothumbs-cliente blockquote {
   font-style: italic;
   border-top: 1px solid #eee;
@@ -1630,7 +1630,7 @@ Open Source
 
 .high-light-projects div {
   box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 44%; 
+  width: 44%;
   background: #f8f8f8;
   padding: 2%;
   min-height: 260px;
@@ -1813,6 +1813,8 @@ Contact
 
 #talk-to-us form li { display: inline-block; }
 
+
+
 #talk-to-us input[type="text"] {
   border-radius: 4px;
   width: 428px;
@@ -1826,6 +1828,24 @@ Contact
   font-weight: normal !important;
   outline: none;
 }
+#talk-to-us select {
+background-color: #f2f2f2;
+color: #a9a9a9;
+	font: normal;
+	margin: 0px 0 13px 0;
+	border: 1px solid #e3e3e3;
+	font-size: 16px;
+	font-weight: normal !important;
+	width: 460px;
+	padding-bottom: 4px;
+	height: 50px;
+	padding: 7px;
+	font-size: 16px;
+
+	-webkit-appearance: none;
+	background: url("/images/down_arrow_select.png") no-repeat right #f2f2f2;
+
+	}
 
 #talk-to-us textarea {
   border-radius: 4px;
@@ -1903,7 +1923,7 @@ footer a:hover {
 .offices { overflow: hidden; }
 
 .offices li {
-	width: 33%;
+  width: 33%;
   line-height: 17px;
   font-size: 12px;
   float: left;
@@ -2046,8 +2066,8 @@ Media Queries for Tablets
   /* Mailing page*/
 
   .cover-mailing-page { margin-top: 20px; }
-  
-  
+
+
   /* Cliente Feliz */
 
   .videothumbs blockquote { height: 80px; }
@@ -2078,7 +2098,7 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 112px; }
-  
+
   .logo-menu { display: none !important; }
   #menu-trigger { display: inline-block; }
 
@@ -2208,7 +2228,7 @@ Media Queries for Smartphones
 
 
   /* Cliete Feliz */
-  
+
   .videothumbs li { width: 39%; }
 
 
@@ -2422,17 +2442,17 @@ Media Queries with adjustments for Smartphones
   #mailing img { width: 70px; }
 
   .modalBox {
-  	width: 260px;
+    width: 260px;
     padding: 17px 10px 10px 10px;
-  	top: 5%;
-  	margin-left: -145px;
+    top: 5%;
+    margin-left: -145px;
   }
-  
-  
+
+
   /* Cliente Feliz */
-  
+
   .videothumbs { padding: 0 15% 0 15%; }
-  
+
   .videothumbs li {
     width: 94%;
     margin: 0 0 20px 0;
@@ -2457,7 +2477,7 @@ Media Queries with more adjustments for Smartphones
   }
 
   #home h3 { font-size: 24px; }
-  
+
   .red-button { max-width: 220px; }
 
   .cover-jobs li {
@@ -2511,11 +2531,11 @@ Max Width, 400px
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 400px) {
-  
+
 
   /* Cliente Feliz */
 
-  .videothumbs { padding: 0; } 
+  .videothumbs { padding: 0; }
 
 }
 
@@ -2615,11 +2635,11 @@ TipTip
 /* TipTip CSS - Version 1.2 */
 
 #tiptip_holder {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99999;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
 }
 
 #tiptip_holder.tip_top { padding-bottom: 5px; }
@@ -2628,93 +2648,93 @@ TipTip
 #tiptip_holder.tip_left { padding-right: 5px; }
 
 #tiptip_content {
-	font-size: 11px;
-	color: #fff;
-	text-shadow: 0 0 2px #000;
-	padding: 4px 8px;
-	border: 1px solid rgba(255,255,255,0.25);
-	background-color: rgb(25,25,25);
-	background-color: rgba(25,25,25,0.92);
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	box-shadow: 0 0 3px #555;
-	-webkit-box-shadow: 0 0 3px #555;
-	-moz-box-shadow: 0 0 3px #555;
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  padding: 4px 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background-color: rgb(25,25,25);
+  background-color: rgba(25,25,25,0.92);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 3px #555;
+  -webkit-box-shadow: 0 0 3px #555;
+  -moz-box-shadow: 0 0 3px #555;
 }
 
 #tiptip_arrow, #tiptip_arrow_inner {
-	position: absolute;
-	border-color: transparent;
-	border-style: solid;
-	border-width: 6px;
-	height: 0;
-	width: 0;
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
 }
 
 #tiptip_holder.tip_top #tiptip_arrow {
-	border-top-color: #fff;
-	border-top-color: rgba(255,255,255,0.35);
+  border-top-color: #fff;
+  border-top-color: rgba(255,255,255,0.35);
 }
 
 #tiptip_holder.tip_bottom #tiptip_arrow {
-	border-bottom-color: #fff;
-	border-bottom-color: rgba(255,255,255,0.35);
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255,255,255,0.35);
 }
 
 #tiptip_holder.tip_right #tiptip_arrow {
-	border-right-color: #fff;
-	border-right-color: rgba(255,255,255,0.35);
+  border-right-color: #fff;
+  border-right-color: rgba(255,255,255,0.35);
 }
 
 #tiptip_holder.tip_left #tiptip_arrow {
-	border-left-color: #fff;
-	border-left-color: rgba(255,255,255,0.35);
+  border-left-color: #fff;
+  border-left-color: rgba(255,255,255,0.35);
 }
 
 #tiptip_holder.tip_top #tiptip_arrow_inner {
-	margin-top: -7px;
-	margin-left: -6px;
-	border-top-color: rgb(25,25,25);
-	border-top-color: rgba(25,25,25,0.92);
+  margin-top: -7px;
+  margin-left: -6px;
+  border-top-color: rgb(25,25,25);
+  border-top-color: rgba(25,25,25,0.92);
 }
 
 #tiptip_holder.tip_bottom #tiptip_arrow_inner {
-	margin-top: -5px;
-	margin-left: -6px;
-	border-bottom-color: rgb(25,25,25);
-	border-bottom-color: rgba(25,25,25,0.92);
+  margin-top: -5px;
+  margin-left: -6px;
+  border-bottom-color: rgb(25,25,25);
+  border-bottom-color: rgba(25,25,25,0.92);
 }
 
 #tiptip_holder.tip_right #tiptip_arrow_inner {
-	margin-top: -6px;
-	margin-left: -5px;
-	border-right-color: rgb(25,25,25);
-	border-right-color: rgba(25,25,25,0.92);
+  margin-top: -6px;
+  margin-left: -5px;
+  border-right-color: rgb(25,25,25);
+  border-right-color: rgba(25,25,25,0.92);
 }
 
 #tiptip_holder.tip_left #tiptip_arrow_inner {
-	margin-top: -6px;
-	margin-left: -7px;
-	border-left-color: rgb(25,25,25);
-	border-left-color: rgba(25,25,25,0.92);
+  margin-top: -6px;
+  margin-left: -7px;
+  border-left-color: rgb(25,25,25);
+  border-left-color: rgba(25,25,25,0.92);
 }
 
 
 /* Webkit Hacks  */
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	#tiptip_content {
-		padding: 4px 8px 5px 8px;
-		background-color: rgba(45,45,45,0.88);
-	}
-	#tiptip_holder.tip_bottom #tiptip_arrow_inner {
-		border-bottom-color: rgba(45,45,45,0.88);
-	}
-	#tiptip_holder.tip_top #tiptip_arrow_inner {
-		border-top-color: rgba(20,20,20,0.92);
-	}
+  #tiptip_content {
+    padding: 4px 8px 5px 8px;
+    background-color: rgba(45,45,45,0.88);
+  }
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: rgba(45,45,45,0.88);
+  }
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: rgba(20,20,20,0.92);
+  }
 }
 
 
