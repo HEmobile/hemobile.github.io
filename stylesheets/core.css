@@ -2531,6 +2531,7 @@ Media Queries with more adjustments for Smartphones
 
  .videothumbs-cliente li {
     width: 88%;
+    margin: 0 2% 30px 3%;
   }
     
   .red-button { max-width: 220px; }
