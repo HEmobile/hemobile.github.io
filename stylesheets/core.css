@@ -1813,8 +1813,6 @@ Contact
 
 #talk-to-us form li { display: inline-block; }
 
-
-
 #talk-to-us input[type="text"] {
   border-radius: 4px;
   width: 428px;
@@ -1828,9 +1826,10 @@ Contact
   font-weight: normal !important;
   outline: none;
 }
+
 #talk-to-us select {
-background-color: #f2f2f2;
-color: #a9a9a9;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
 	font: normal;
 	margin: 0px 0 13px 0;
 	border: 1px solid #e3e3e3;
@@ -1844,7 +1843,7 @@ color: #a9a9a9;
 
 	-webkit-appearance: none;
 	background: url("/images/down_arrow_select.png") no-repeat right #f2f2f2;
-
+    border-radius: 4px;
 	}
 
 #talk-to-us textarea {
@@ -1979,13 +1978,30 @@ Media Queries for Tablets
 
 @media (max-width: 960px) {
 
+  body { vertical-align: top;}
   .containner { width: 700px; }
   #menu2 { margin-top: 8px; }
 
-
+  /* Patterns */
+    
+  .lang2 {
+    margin-top: 4px;
+    background: none;
+    position: absolute;
+    right: 90px;
+    top: 0px;
+    padding: 5px 7px 5px 7px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #666;
+  }   
+    
   /* Home */
 
-  #home { padding-top: 150px; }
+  #home {
+    background: url("/images/bg-home.jpg") no-repeat 50% 0;
+    padding-top: 125px;
+  }
 
   .services-home li {
     width: 90%;
@@ -2071,7 +2087,10 @@ Media Queries for Tablets
   /* Cliente Feliz */
 
   .videothumbs blockquote { height: 80px; }
-
+    
+  .videothumbs-cliente li {
+    width: 88%;
+  }
 
   /* Open Source */
 
@@ -2082,6 +2101,33 @@ Media Queries for Tablets
     height: auto;
   }
 
+    /* Services Page */
+    
+  .trabalhos-h3 {
+    font-size: 30px !important;
+    margin: 10px 0 4px 0;
+  } 
+   
+  #time ul > li {
+    margin: 0 2% 1px 2%;
+  }
+    
+  #time ul p {
+    font-size: 14px;
+    padding-bottom: 0;
+  }
+
+    /* Contact */
+    
+  #talk-to-us select {
+    width: 100%;
+    padding: 0 22px 0 3px;
+	-webkit-appearance: none;
+	background: url("/images/down_arrow_select.png") no-repeat 101% 51% #f2f2f2;
+    word-wrap: break-word;
+    border-radius: 4px;
+  }
+    
 }
 
 
@@ -2152,9 +2198,14 @@ Media Queries for Smartphones
 
 
   /* Home */
+    
+    
 
-  #home { padding-top: 125px; }
-
+  #home {
+    padding-top: 125px; 
+    background: url("/images/bg-home.jpg") no-repeat 50% 0;
+  }
+  
   #home h2 {
     font-size: 45px;
     line-height: 47px;
@@ -2291,7 +2342,7 @@ Media Queries for Smartphones
 
   #time ul > li {
     width: 29%;
-    margin: 0 2% -35px 2% !important;
+    margin: 0 2% 1px 2% !important;
   }
 
   #time ul > li img, #time ul > li a img {
@@ -2303,7 +2354,7 @@ Media Queries for Smartphones
 
   #time ul p {
     font-size: 14px;
-    height: 70px;
+    padding-bottom: 0;
   }
 
   #time ul span { font-size: 10px; }
@@ -2485,7 +2536,10 @@ Media Queries with more adjustments for Smartphones
     display: inline-block;
   }
 
-  #time ul > li { width: 44%; }
+  #time ul > li { 
+    width: 44%;
+    margin: 0 2% 1px 2% !important;
+  }
 
   .high-light-projects div {
     width: 96%;
