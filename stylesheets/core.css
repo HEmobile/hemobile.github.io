@@ -6,7 +6,7 @@
 body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
-  vertical-align: baseline;
+  vertical-align: top;
   font-style: normal;
   list-style-type: none;
   padding: 0;
@@ -24,7 +24,7 @@ html { font-size: 62.5%; }
 
 body {
   font-family: inherit;
-  vertical-align: baseline;
+  vertical-align: top;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: rgb(71, 60, 60);
@@ -1980,21 +1980,7 @@ Media Queries for Tablets
 
   body { vertical-align: top;}
   .containner { width: 700px; }
-  #menu2 { margin-top: 8px; }
-
-  /* Patterns */
-    
-  .lang2 {
-    margin-top: 4px;
-    background: none;
-    position: absolute;
-    right: 90px;
-    top: 0px;
-    padding: 5px 7px 5px 7px;
-    text-decoration: none;
-    font-size: 11px;
-    color: #666;
-  }   
+  #menu2 { margin-top: 8px; }  
     
   /* Home */
 
@@ -2088,11 +2074,7 @@ Media Queries for Tablets
 
   .videothumbs blockquote { height: 80px; }
     
-  .videothumbs-cliente li {
-    width: 88%;
-  }
-
-  /* Open Source */
+    /* Open Source */
 
   .gems-list li {
     width: 96%;
@@ -2117,17 +2099,6 @@ Media Queries for Tablets
     padding-bottom: 0;
   }
 
-    /* Contact */
-    
-  #talk-to-us select {
-    width: 100%;
-    padding: 0 22px 0 3px;
-	-webkit-appearance: none;
-	background: url("/images/down_arrow_select.png") no-repeat 101% 51% #f2f2f2;
-    word-wrap: break-word;
-    border-radius: 4px;
-  }
-    
 }
 
 
@@ -2147,7 +2118,19 @@ Media Queries for Smartphones
 
   .logo-menu { display: none !important; }
   #menu-trigger { display: inline-block; }
-
+        
+  .lang2 {
+    margin-top: 4px;
+    background: none;
+    position: absolute;
+    right: 90px;
+    top: 0px;
+    padding: 5px 7px 5px 7px;
+    text-decoration: none;
+    font-size: 11px;
+    color: #666;
+  } 
+    
   #menu2 {
     width: 100%;
     text-align: left;
@@ -2170,7 +2153,11 @@ Media Queries for Smartphones
     display: block;
     float: left;
   }
-
+    
+  .videothumbs-cliente li {
+    width: 40%;
+  }
+    
   .current-page {
     box-shadow: none;
     background: #b80606 !important;
@@ -2467,7 +2454,18 @@ Media Queries for Smartphones
     min-width: 94%;
     padding: 3%;
   }
-
+    
+    /* Contact */
+    
+  #talk-to-us select {
+    width: 100%;
+    padding: 0 18px 0 2%;
+	-webkit-appearance: none;
+	background: url("/images/down_arrow_select.png") no-repeat 101% 51% #f2f2f2;
+    word-wrap: break-word;
+    border-radius: 4px;
+  }    
+    
 }
 
 
@@ -2478,6 +2476,8 @@ Media Queries with adjustments for Smartphones
 
 @media (max-width: 581px) {
 
+  /* Patterns */
+    
   .blog-posts {
     width: 100%;
     margin-bottom: 50px;
@@ -2529,6 +2529,10 @@ Media Queries with more adjustments for Smartphones
 
   #home h3 { font-size: 24px; }
 
+ .videothumbs-cliente li {
+    width: 88%;
+  }
+    
   .red-button { max-width: 220px; }
 
   .cover-jobs li {
